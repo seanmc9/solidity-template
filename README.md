@@ -1,19 +1,22 @@
-## Foundry
+## Solidity Development Template
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+The first thing you should do is get [Foundry](https://book.getfoundry.sh/) installed.
 
-Foundry consists of:
+Do do this, follow the [instructions here](https://book.getfoundry.sh/getting-started/installation) under the "Use Foundryup" section. Namely:
+1. Run `curl -L https://foundry.paradigm.xyz | bash` in your terminal.
+2. Run `foundryup` in your terminal.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+Once that has successfully run, then run `forge build` in the top directory of this repository in your terminal to compile and link all of the code (with the libraries) up.
 
-## Documentation
+Once you do this, you are ready to start editing, compiling, testing, and deploying the code in this repository.
+
+Below you can find documentation on how to use forge (the Soldity development framework being used in this repository) and other [Foundry](https://book.getfoundry.sh/) tools available to you after running `foundryup`.
+
+## Foundry Documentation
 
 https://book.getfoundry.sh/
 
-## Usage
+## Foundry Usage
 
 ### Build
 
